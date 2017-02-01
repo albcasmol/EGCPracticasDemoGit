@@ -9,27 +9,27 @@ public class MisMatematicas2
 {
 	static Logger log=Logger.getLogger(MisMatematicas.class); 
 	
-	public static int divide2(int a, int b){
-		int result= a/b;
+	public static double divide2(double a, double b){
+		double result= a/b;
 		log.info("Returning "+a+"/"+b+"="+result);
 		return result;
 		
 	}
 	
-	public static int multiplica2(int a, int b){
-		int result= a*b;
+	public static double multiplica2(double a, double b){
+		double result= a*b;
 		log.info("Returning "+a+"*"+b+"="+result);
 		return result;
 	}
 	
-	public static int suma2(int a, int b){
-		int result = a+b
+	public static double suma2(double a, double b){
+		double result = a+b
 		log.info("Returning" +a+ "+" +b+"=" result);
 		return result;
 	}
 	
-	public static int resta2(int a, int b){
-		int result = a-b
+	public static double resta2(double a, double b){
+		double result = a-b
 		log.info("Returning" +a+ "-" +b+"=" result);
 		return result;
 	}
