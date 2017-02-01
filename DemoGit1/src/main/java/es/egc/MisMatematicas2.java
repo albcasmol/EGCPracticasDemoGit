@@ -1,17 +1,25 @@
 package es.egc;
 import org.apache.log4j.*; 
-
 /**
- * DIVISION
- *
+ * Multiplica2
+ * Divide2
+ * Suma2
+ * RaizCuadrada
+ * Resta2
  */
 public class MisMatematicas2 
 {
 	static Logger log=Logger.getLogger(MisMatematicas.class); 
 	
+<<<<<<< HEAD
 	public static double divide2(double x, double b){
 		double result= x/b;
 		log.info("Returning "+x+"/"+b+"="+result);
+=======
+	public static double divide2(double c, double b){
+		double result= c/b;
+		log.info("Returning "+c+"/"+b+"="+result);
+>>>>>>> RamaConflicto
 		return result;
 		
 	}
@@ -26,6 +34,11 @@ public class MisMatematicas2
 		double result = a+b
 		log.info("Returning" +a+ "+" +b+"=" result);
 		return result;
+	}
+	
+	public static double raizCuadrada(double a){
+		double result = Math.sqrt(a);
+		log.info("Returning Squrt("+a+") =" result);
 	}
 	
 	public static double resta2(double a, double b){
