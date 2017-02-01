@@ -27,4 +27,10 @@ public class MisMatematicas
 		log.info("Returning" +a+ "+" +b+"=" result);
 		return result;
 	}
+	
+	public static int resta(int a, int b){
+		int result = a-b
+		log.info("Returning" +a+ "-" +b+"=" result);
+		return result;
+	}
 }
