@@ -9,9 +9,9 @@ public class MisMatematicas2
 {
 	static Logger log=Logger.getLogger(MisMatematicas.class); 
 	
-	public static double divide2(double a, double b){
-		double result= a/b;
-		log.info("Returning "+a+"/"+b+"="+result);
+	public static double divide2(double x, double b){
+		double result= x/b;
+		log.info("Returning "+x+"/"+b+"="+result);
 		return result;
 		
 	}
